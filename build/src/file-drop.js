@@ -10,8 +10,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 require('fileapi');
 var core_1 = require('@angular/core');
-var DragEvent = '';
 var FileDropDirective = (function () {
+    var DragEvent = '';
     function FileDropDirective(element) {
         this.fileOver = new core_1.EventEmitter();
         this.onFileDrop = new core_1.EventEmitter();
